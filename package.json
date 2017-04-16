@@ -1,6 +1,6 @@
 {
   "name": "gulp-flowgen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "Gulp plugin for Flowgen. Generate Flowtype definition files from TypeScript.",
@@ -27,7 +27,7 @@
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "@types/vinyl": "^2.0.0",
-    "@types/through2": "^2.0.32"
+    "@types/through2": "^2.0.32",
+    "@types/vinyl": "^2.0.0"
   }
 }
