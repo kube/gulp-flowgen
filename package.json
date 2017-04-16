@@ -1,0 +1,33 @@
+{
+  "name": "gulp-flowgen",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "description": "Gulp plugin for Flowgen. Generate Flowtype definition files from TypeScript.",
+  "keywords": [
+    "gulpplugin",
+    "flowgen",
+    "flowtype",
+    "typescript",
+    "types",
+    "definition"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "author": {
+    "name": "Chris Feijoo",
+    "url": "github.com/kube"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "flowgen": "^1.2.0",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/vinyl": "^2.0.0",
+    "@types/through2": "^2.0.32"
+  }
+}
